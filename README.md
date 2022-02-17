@@ -24,10 +24,7 @@ python ./downloader.py \
 The following command will download 500 images from each of selected class:
 ```
 python ./downloader.py 
-    -data_root /data_root_folder/imagenet \
-    -use_class_list True \
-    -class_list n02691156 n04524313 n01503061 n02121620 n02430045 n02084071 n01639765 n02374451 n04194289 n04490091 \
-    -images_per_class 500 
+    -data_root ../ -use_class_list True -class_list n02691156 n04524313 n01503061 n02121620 n02430045 n02084071 n01639765 n02374451 n04194289 n04490091 -images_per_class 500 
 ```
 You can find class list in [this csv](https://github.com/mf1024/ImageNet-datasets-downloader/blob/master/classes_in_imagenet.csv) where I list every class that appear in the ImageNet with number of total urls and total flickr urls it that class.
 
